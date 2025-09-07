@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/bgf.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.logo {
+    width: 170px;
+}
+
+nav button {
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.top button {
+    margin: 15px;
+}
+
+.language {
+    background-color: transparent;
+    border: 0.5px solid white;
+}
+
+button img {
+    height: 10px;
+    margin-right: 5px;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: 900;
+    max-width: 2000px;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: white;
+    padding: 15px 30px;
+    margin: 0px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.info button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.features {
+    padding: 50px 10px;
+    margin: 20px;
+}
+
+.r {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    justify-content: center;
+    margin: 30px;
+    border-top: 6px solid #303030;
+}
+
+.image img {
+    width: 90%;
+}
+
+.text h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.text p {
+    font-size: 25px;
+}
+
+.text {
+    max-width: 540px;
+}
+
+.faq {
+    margin: 50px 20px;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black; /* Background of FAQ section */
+}
+
+.faq h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.point {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+}
+
+.point li {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.faq-button {
+    background-color: #303030; /* Black background */
+    color: white; /* White text */
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.faq-button:hover {
+    background-color: #444; /* Lighter black/grey on hover */
+}
+
+.content {
+    display: none;
+    background: #303030; /* Black background */
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    color: white; /* White text inside content */
+}
+
+.faq button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq p {
+    margin: 20px;
+}
+
+.faq input[type="email"] {
+    border-color: rgb(24, 179, 3);
+}
+
+.footer {
+    border-top: 6px solid #303030;
+    margin: 50px 20px;
+    padding: 50px 20px;
+}
+
+.footer p {
+    margin-left: 27%;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    margin: 10px 100px;
+}
+
+.footer button {
+    margin-top: 20px;
+    padding: 8px;
+    width: 120px;
+    margin-left: 28%;
+}

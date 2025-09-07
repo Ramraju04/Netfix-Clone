@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India-Watch TV Online, Watch Movies Online</title>
+    <link rel="icon" href="images/netflix.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/netflix_logo-removebg-preview.png" alt="" class="logo">
+            <div class="top">
+                <button class="language"><img src="images/preview.png" alt="">English</button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+        <div class="info">
+            <h1>Horror. Tears. Thrills. Find it all on Netflix.</h1>
+            <h3>Endless entertainment starts at just ₹ 999. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form action="" class="signup">
+                <input type="email" placeholder="Email address" id="">
+                <button type="submit">Get Started ></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="r">
+            <div class="text">
+                <h2>Enjoy Live TV.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="image">
+                <img src="images/content1.png" alt="">
+            </div>
+        </div>
+        <div class="r">
+            <div class="image">
+                <img src="images/content2.jpg" alt="">
+            </div>
+            <div class="text">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+        </div>
+        <div class="r">
+            <div class="text">
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="image">
+                <img src="images/content3.png" alt="">
+            </div>
+        </div>
+        <div class="r">
+            <div class="image">
+                <img src="images/content4.png" alt="">
+            </div>
+            <div class="text">
+                <h2>Create profiles for kids</h2>
+                <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="point">
+                <li>
+                    <button class="faq-button">What is Netflix?</button>
+                    <div class="content">
+                        <p>Netflix is a popular streaming service offering a wide variety of TV shows, movies, documentaries, and original programming. It is available through a subscription, which gives users access to its content across various devices such as TVs, laptops, smartphones, and tablets.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="faq-button">Where can I watch?</button>
+                    <div class="content">
+                        <p>You can watch Netflix on almost any internet-connected device that offers the Netflix app, including smart TVs, game consoles, streaming media players, set-top boxes, smartphones, tablets, and web browsers. Just sign in and start streaming your favorite content.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="faq-button">How do I cancel?</button>
+                    <div class="content">
+                        <p>To cancel your Netflix subscription, simply log in to your account, go to the "Account" section, and select "Cancel Membership." You can cancel at any time and will continue to have access to Netflix until the end of your billing cycle.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="faq-button">Is Netflix good for kids?</button>
+                    <div class="content">
+                        <p>Yes, Netflix offers a dedicated Kids profile that features child-friendly content like animated shows and movies. Parents can also set up parental controls to restrict certain types of content based on age.</p>
+                    </div>
+                </li>
+            </ul>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form action="" class="signup">
+                <input type="email" placeholder="Email address" id="">
+                <button type="submit">Get Started ></button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Questions? Call +91 1234567890</p>
+        <div class="row">
+            <div class="column">
+                <a href="">FAQ</a><a href="">Media Centre</a><a href="">Ways to watch</a><a href="">Cookie Preferences</a><a href="">Speed test</a>
+            </div>
+            <div class="column">
+                <a href="">Help Centre</a><a href="">Investor relations</a><a href="">Terms of use</a><a href="">Corporate information</a><a href="">Legal notices</a>
+            </div>
+            <div class="column">
+                <a href="">Accounts</a><a href="">Jobs</a><a href="">Privacy</a><a href="">Contact us</a><a href="">Only on netflix</a>
+            </div>
+        </div>
+        <button class="language"><img src="images/language-removebg-preview.png" alt="">English</button>
+        <p>Netflix India</p>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
